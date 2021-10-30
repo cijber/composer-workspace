@@ -1,0 +1,36 @@
+{
+    "name": "cijber/workspace",
+    "description": "A plugin to allow for workspaces in composer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cijber\\WorkspacePlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eater",
+            "email": "=@eater.me"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    },
+    "extra": {
+        "class": "Cijber\\WorkspacePlugin\\Plugin"
+    },
+    "repositories": {
+        "cijber-workspace": {
+            "type": "path",
+            "url": "/home/eater/projects/dense/workspace"
+        },
+        "0": {
+            "type": "path",
+            "url": "."
+        }
+    }
+}
