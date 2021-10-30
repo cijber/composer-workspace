@@ -24,10 +24,6 @@
         "class": "Cijber\\WorkspacePlugin\\Plugin"
     },
     "repositories": {
-        "cijber-workspace": {
-            "type": "path",
-            "url": "/home/eater/projects/dense/workspace"
-        },
         "0": {
             "type": "path",
             "url": "."

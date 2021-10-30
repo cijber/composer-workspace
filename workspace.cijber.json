@@ -1,7 +1,6 @@
 {
-  "name": "uranium",
+  "name": "cijber/workspace",
   "packages": [
-    "workspace",
-    "workspace-test"
+    "workspace"
   ]
 }
