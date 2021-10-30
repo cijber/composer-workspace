@@ -1,6 +1,6 @@
 {
   "name": "cijber/workspace",
   "packages": [
-    "workspace"
+    "."
   ]
 }
